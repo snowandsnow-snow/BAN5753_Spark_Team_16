@@ -8,6 +8,8 @@ The objective of this project is to identify clients who will subscribe (yes/no)
 There are no missing data but the categoty "unknown" existing in some varaibles
 ### Univariate patterns
 For Numerical Variables: 
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/039924ba-b4ce-4af3-afdd-a231ca29f910)
+
 * Except 'AGE' is near normal distributed, all other variables are not normal distributed.
 * These variables will be grouped into two categorices according to their distribution:
 1. PDAYS
@@ -15,14 +17,18 @@ For Numerical Variables:
 * Others will be normalized using 'StandardScaler'.
 
 For Categorical Variables:
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/2a666dde-0586-4cb1-bd7d-25bf5a173585)
 
 Some caterical variables which have too many categories but very unbalanced, they will be grouped into less categories:
 1. education: college VS. non-college
 2. month :special months (Mar. & Sep. & Otc. & Dec) VS. others
 ### Bivariate analysis of target versus categorical input variables
 Compare the target variale (yes/no) for each category of each variable using bar plot.
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/48cbd492-1b09-4a84-9c8a-5fc1a8b684cb)
+
 ### Bivariate analysis of target versus numerical input variables
 Compare the target variale (yes/no) for each variable using histogram.
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/aafdbc16-3819-4aa7-aa05-d8082e6e4c8d)
 
 ### Transform
 Try log transformation for some varible but only duration eliminetd some skew problem. But the log(duration) resulted in bad model results so finally give up.
