@@ -22,9 +22,15 @@ For Categorical Variables, the distribution for each variable is shown below:
 Some caterical variables which have too many categories but very unbalanced, they will be grouped into less categories:
 1. education: college VS. non-college
 2. month :special months (Mar. & Sep. & Otc. & Dec) VS. others
+   
 ### Bivariate analysis of target versus categorical input variables
 Compare the target variale (yes/no) for each category of each variable using bar plot:
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/48cbd492-1b09-4a84-9c8a-5fc1a8b684cb)
+From these we could see which categories impact users decision to subscribe, we are able to dwell deeper into building  profiles of our customers.
+We see that some variables can be looked into to provide insights since the subscribe rate for yes are very unbalanced:
+1. education_udf
+2. maritial status
+3. month
 
 ### Bivariate analysis of target versus numerical input variables
 Compare the target variale (yes/no) for each variable using histogram:
