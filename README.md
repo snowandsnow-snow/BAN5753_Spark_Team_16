@@ -107,5 +107,5 @@ Based on the decriptive analysis (EDA), we have seen a higher subscribe rate amo
 To capitalize on that, we should focus advertising on that demographic with targeted advertising:
 1. For highly educated: Target marketing strategies that can help users gain discounts on their future investments, highly educated users also would be tech savy so partnering with tech firms to offer deals could be efficient
 2. For single users: Create campaigns that appeal to their lifestlye, this could include deals adding value to their individual portfolio
-3. For certain months :Plan and time marketing campaigns to coincide with March , September , October and December, this could look like seasonal offers or promotions that align with festivals ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/35836488-867e-4626-a0ce-44b508f1ac1e)
+3. For certain months :Plan and time marketing campaigns to coincide with March , September , October and December, this could look like seasonal offers or promotions that align with festivals
 
