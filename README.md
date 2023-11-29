@@ -79,7 +79,7 @@ The confusion matrix was defeined in this section. The confusion matrix for the 
 
 ## 5 Supervised Models
 ### Model # 1: Logistic Regression
-* Accuracy-Logistic Regression:  0.903037667071689
+* Accuracy-Logistic Regression:  0.903
 * Test Area Under ROC-Logistic Regression: 0.92004
 ### Model # 2: Decision Tree
  * Accuracy-Decision Tree :   0.9087
