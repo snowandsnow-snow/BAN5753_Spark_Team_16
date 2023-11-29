@@ -4,9 +4,9 @@ The objective of this project is to identify clients who will subscribe (yes/no)
 ## 1. Exploratory Data Analysis (EDA)
 1. In the downloaded csv dataset, Fistly use "," to divide the data into different columns.
 2. Replcae all "." in data or column name to "-" since the code reported error to "."
-###  Missing data
+###  Missing Data
 There are no missing data but the categoty "unknown" existing in some varaibles
-### Univariate patterns
+### Univariate Patterns
 For Numerical Variables, the distribution for each variable is shown below: 
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/039924ba-b4ce-4af3-afdd-a231ca29f910)
 
@@ -23,7 +23,7 @@ Some caterical variables which have too many categories but very unbalanced, the
 1. education: college VS. non-college
 2. month :special months (Mar. & Sep. & Otc. & Dec) VS. others
    
-### Bivariate analysis of target versus categorical input variables
+### Bivariate Analysis of Target Versus Categorical Input Variables
 Compare the target variale (yes/no) for each category of each variable using bar plot:
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/48cbd492-1b09-4a84-9c8a-5fc1a8b684cb)
 From these we could see which categories impact users decision to subscribe, we are able to dwell deeper into building  profiles of our customers.
@@ -32,7 +32,7 @@ We see that some variables can be looked into to provide insights since the subs
 2. maritial status
 3. month
 
-### Bivariate analysis of target versus numerical input variables
+### Bivariate Analysis of Target Versus Numerical Input Variables
 Compare the target variale (yes/no) for each variable using histogram:
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/aafdbc16-3819-4aa7-aa05-d8082e6e4c8d)
 We see that for every one of the features, there is a class imbalance in each histogram, we see that there is more data for y = no as compared to y = yes.
@@ -41,7 +41,7 @@ Because of this we will have to look for evaluation metrics and machine learning
 
 ### Transform
 Try log transformation for some varible but only duration eliminetd some skew problem. But the log(duration) resulted in bad model results so finally give up. The another reason for giving up log transdormation is beacuse we will use standard scaler.
-### Correlations-colinearity problem
+### Correlations-colinearity Problem
 The collelation reuslts are shown below.
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/b36644a1-17d5-4f14-aa5d-74121e9330bc)
 
@@ -85,12 +85,12 @@ The confusion matrix was defeined in this section. The confusion matrix for the 
 ###  Model # 5: Factorization machines classifier
 * Accuracy-Factorization machines classifier :  0.9011
 * Test Area Under ROC-Factorization machines classifier 0.9101
-### Findings and benefits of the champion model
-The best mode is gradient-boosted tree. The reason may be because its sampling method and we train them to correct each other's errors, they're capable of capturing complex patterns in the data.
+### Findings and Benefits of the Champion Model
+The best performance model is gradient-boosted tree (GBT) accoring to AUC. The reason may be because its sampling method and we train them to correct each other's errors, they're capable of capturing complex patterns in the data. However, the logistic regression gives us 92% AUC which is not much lower than GBT at 93% but simpler than GBT model.
 ## 6. Best Model Saving and Load for future use
 We look at the simplest model with the highest AUC values as our model, since logistic regression gives us 92% AUC which is not much lower than GBT at 93%  and is easier to explain to stakeholders we select the logistic regression as our final model
 
-## 7. Prescriptive recommendations
+## 7. Prescriptive Recommendations
 Based on the decriptive analysis (EDA), we have seen a higher subscribe rate among:
 
 * Highly educated
