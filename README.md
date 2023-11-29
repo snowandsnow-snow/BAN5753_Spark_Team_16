@@ -63,7 +63,9 @@ Deal with these two variables to solve collinearity problem:
 ## 3. Train/Test split
 train: test = 0.8:0.2
 ## 4. Confusion Matrix
-The confusion matrix was defeined in this section
+The confusion matrix was defeined in this section. The confusion matrix for the five models are shown below:
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/26d90f2b-0fb7-4d04-b59a-1150e402507f)
+
 ## 5 Supervised Models
 ### Model # 1: Logistic Regression
 * Accuracy-Logistic Regression:  0.903037667071689
@@ -86,9 +88,13 @@ The best mode is gradient-boosted tree. The reason may be because its sampling m
 We look at the simplest model with the highest AUC values as our model, since logistic regression gives us 92% AUC which is not much lower than GBT at 93%  and is easier to explain to stakeholders we select the logistic regression as our final model
 
 ## 7. Prescriptive recommendations
-Based on the decriptive analysis, we have seen a higher subscribe rate among:
+Based on the decriptive analysis (EDA), we have seen a higher subscribe rate among:
 
 * Highly educated
 * Single people
 * Special months (Mar. & Sep. & Otc. & Dec)
-To capitalize on that, we should focus advertising on that demographic with targeted advertising in special months (Mar. & Sep. & Otc. & Dec)s, highly educated and single people
+To capitalize on that, we should focus advertising on that demographic with targeted advertising:
+1. For highly educated: Target marketing strategies that can help users gain discounts on their future investments, highly educated users also would be tech savy so partnering with tech firms to offer deals could be efficient
+2. For single users: Create campaigns that appeal to their lifestlye, this could include deals adding value to their individual portfolio
+3. For certain months :Plan and time marketing campaigns to coincide with March , September , October and December, this could look like seasonal offers or promotions that align with festivals ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/35836488-867e-4626-a0ce-44b508f1ac1e)
+
