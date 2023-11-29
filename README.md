@@ -5,7 +5,9 @@ The objective of this project is to identify clients who will subscribe (yes/no)
 1. In the downloaded csv dataset, Fistly use "," to divide the data into different columns.
 2. Replcae all "." in data or column name to "-" since the code reported error to "."
 ###  Missing Data
-There are no missing data but the categoty "unknown" existing in some varaibles
+There are no missing data but the categoty "unknown" existing in some varaibles.
+![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/fa62fff2-f614-4f37-8059-c7b249a98648)
+
 ### Univariate Patterns
 For Numerical Variables, the distribution for each variable is shown below: 
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/039924ba-b4ce-4af3-afdd-a231ca29f910)
