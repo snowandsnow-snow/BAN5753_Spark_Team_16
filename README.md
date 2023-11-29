@@ -8,7 +8,7 @@ The objective of this project is to identify clients who will subscribe (yes/no)
 There are no missing data but the categoty "unknown" existing in some varaibles.
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/fa62fff2-f614-4f37-8059-c7b249a98648)
 
-### Univariate Patterns
+### Univariate Patterns - Numerical Variables
 For Numerical Variables, the distribution for each variable is shown below: 
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/039924ba-b4ce-4af3-afdd-a231ca29f910)
 
@@ -17,7 +17,7 @@ For Numerical Variables, the distribution for each variable is shown below:
 1. PDAYS
 2. EURIBOR3M
 * Others will be normalized using 'StandardScaler'.
-
+### Univariate Patterns - Categorical Variables
 For Categorical Variables, the distribution for each variable is shown below:
 ![image](https://github.com/snowandsnow-snow/BAN5753_Spark_Team_16/assets/63618493/2a666dde-0586-4cb1-bd7d-25bf5a173585)
 
@@ -41,7 +41,7 @@ We see that for every one of the features, there is a class imbalance in each hi
 Because of this we will have to look for evaluation metrics and machine learning models which could take this into consideration
 
 
-### Transform
+### Transforming
 Try log transformation for some varible but only duration eliminetd some skew problem. But the log(duration) resulted in bad model results so finally give up. The another reason for giving up log transdormation is beacuse we will use standard scaler.
 ### Correlations-colinearity Problem
 The collelation reuslts are shown below.
@@ -62,7 +62,13 @@ Deal with these two variables to solve collinearity problem:
 
 
 ## 2. Prepare Data for Machine Learning
-### StringIndexer, OneHotEncoderEstimator, OneHotEncoderEstimator, LabelIndexer, StandardScaler
+### Variable preparation
+The following technologies were used:
+
+1. StringIndexer
+2. OneHotEncoderEstimator
+3. LabelIndexer
+4. StandardScaler
 ### K-means Clustering
 4 clusters were divided using K means method.
 ## 3. Train/Test split
