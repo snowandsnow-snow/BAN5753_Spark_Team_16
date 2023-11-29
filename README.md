@@ -104,6 +104,7 @@ Based on the decriptive analysis (EDA), we have seen a higher subscribe rate amo
 * Highly educated
 * Single people
 * Special months (Mar. & Sep. & Otc. & Dec)
+### Recommendations
 To capitalize on that, we should focus advertising on that demographic with targeted advertising:
 1. For highly educated: Target marketing strategies that can help users gain discounts on their future investments, highly educated users also would be tech savy so partnering with tech firms to offer deals could be efficient
 2. For single users: Create campaigns that appeal to their lifestlye, this could include deals adding value to their individual portfolio
