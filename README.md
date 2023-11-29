@@ -40,7 +40,7 @@ Because of this we will have to look for evaluation metrics and machine learning
 
 
 ### Transform
-Try log transformation for some varible but only duration eliminetd some skew problem. But the log(duration) resulted in bad model results so finally give up.
+Try log transformation for some varible but only duration eliminetd some skew problem. But the log(duration) resulted in bad model results so finally give up. The another reason for giving up log transdormation is beacuse we will use standard scaler.
 ### Correlations-colinearity problem
 Accoring to this guidline,collinarity problem exist in these pairs:
 * Emp_var_rate VS. cons_price_idx
