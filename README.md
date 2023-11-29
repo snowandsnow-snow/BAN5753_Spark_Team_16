@@ -62,7 +62,7 @@ Deal with these two variables to solve collinearity problem:
 
 
 ## 2. Prepare Data for Machine Learning
-### Variable preparation
+### Variable Preparation
 The following technologies were used:
 
 1. StringIndexer
